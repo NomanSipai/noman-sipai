@@ -1,3 +1,4 @@
+import Data from "../Data/Data";
 const Projects = () => {
   return (
     <div>
