@@ -6,10 +6,15 @@ import LinkdinIcon from "../assets/linkedin.svg";
 const Contact = () => {
   return (
     <div>
-      <Link></Link>
-      <Link></Link>
-      <Link></Link>
-      <Link></Link>
+      <Link>
+        <img src={EmailIcon} alt="email" />
+      </Link>
+      <Link>
+        <img src={GithubIcon} alt="github" />
+      </Link>
+      <Link>
+        <img src={LinkdinIcon} alt="linkedin" />
+      </Link>
     </div>
   );
 };
