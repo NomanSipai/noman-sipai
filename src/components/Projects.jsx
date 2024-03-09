@@ -1,27 +1,33 @@
 import Data from "../Data/Data";
 const Projects = () => {
   return (
-    <div className=" flex ">
-      <div className=" bg-gray-100  flex flex-col items-center justify-center">
-        <div className=" text-3xl font-medium text-sky-600 mb-5">
-          {Data[0].name}
-        </div>
-        <div>
-          <img
-            className=" w-1/4 object-contain block me-auto ms-auto"
-            src={Data[0].img}
-            alt=""
-          />
-        </div>
-        <div className="mt-8 text-orange-300">
-          <a className="me-20 border border-sky-600 font-medium p-2 cursor-pointer bg-white rounded">
-            Source Code
-          </a>
-          <a className=" border border-sky-600 font-medium p-2 cursor-pointer bg-white rounded">
-            Visit Page
-          </a>
-        </div>
-      </div>
+    <div className="flex flex-wrap items-center justify-center w-3/4 me-auto ms-auto mt-24">
+      {Data.map((item) => {
+        return (
+          <div key={item.id} className="w-full md:w-1/3  p-4">
+            <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden border border-gray-200 shadow">
+              <div className="p-4 text-center font-bold text-3xl text-sky-500">
+                {item.name}
+              </div>
+              <div>
+                <img
+                  className=" w-full h-56 object-contain pe-5 ps-5"
+                  src={item.img}
+                  alt={item.name}
+                />
+              </div>
+              <div className="flex justify-between p-4">
+                <a className="border border-sky-400 rounded p-2 text-orange-400 hover:bg-sky-500 cursor-pointer hover:text-white text-base font-medium">
+                  Source Code
+                </a>
+                <a className="border border-sky-400 rounded p-2 text-orange-400 hover:bg-sky-500 cursor-pointer hover:text-white text-base font-medium">
+                  Visit Page
+                </a>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 };
