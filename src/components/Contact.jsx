@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
 import EmailIcon from "../assets/envelope.svg";
 import GithubIcon from "../assets/github.svg";
-import LinkdinIcon from "../assets/linkedin.svg";
+import LinkedinIcon from "../assets/linkedin.svg";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center mt-40">
       <Link>
-        <img src={EmailIcon} alt="email" />
+        <img className=" w-10 m-10" src={EmailIcon} alt="email" />
       </Link>
       <Link>
-        <img src={GithubIcon} alt="github" />
+        <img className="w-10 m-10" src={GithubIcon} alt="github" />
       </Link>
       <Link>
-        <img src={LinkdinIcon} alt="linkedin" />
+        <img className="w-10 m-10" src={LinkedinIcon} alt="linkedin" />
       </Link>
     </div>
   );
