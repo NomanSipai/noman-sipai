@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (
