@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-around items-center">
       <div className="p-3 m-3 text-orange-500 text-4xl cursor-pointer font-bold">
-        <Link to="/">emre</Link>
+        <Link to="/">Noman</Link>
       </div>
       <div>
         <ul className="flex text-xl font-medium">
