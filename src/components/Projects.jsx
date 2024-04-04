@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Data from "../Data/Data";
 const Projects = () => {
   return (
@@ -19,12 +20,18 @@ const Projects = () => {
                 />
               </div>
               <div className="flex justify-between p-4">
-                <a className="border border-sky-400 rounded p-2 text-orange-400 hover:bg-sky-500 cursor-pointer hover:text-white text-base font-medium">
+                <Link
+                  to={item.sourceCode}
+                  target="_blank"
+                  className="border border-sky-400 rounded p-2 text-orange-400 hover:bg-sky-500 cursor-pointer hover:text-white text-base font-medium">
                   Source Code
-                </a>
-                <a className="border border-sky-400 rounded p-2 text-orange-400 hover:bg-sky-500 cursor-pointer hover:text-white text-base font-medium">
+                </Link>
+                <Link
+                  to={item.appLink}
+                  target="_blank"
+                  className="border border-sky-400 rounded p-2 text-orange-400 hover:bg-sky-500 cursor-pointer hover:text-white text-base font-medium">
                   Visit Page
-                </a>
+                </Link>
               </div>
             </div>
           </div>
