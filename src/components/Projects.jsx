@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 import Data from "../Data/Data";
 const Projects = () => {
-  // const getData = async () => {
-  //   await fetch("/src/Data/data.json").then((res) => res).then(())
-  // };
-  // getData();
   return (
     <div className="bg-slate-200 flex flex-wrap items-center py-20 justify-center me-auto ms-auto">
       {Data.map((item) => {
@@ -17,7 +13,7 @@ const Projects = () => {
               href="#">
               <img
                 className="peer absolute top-0 right-0 h-full w-full object-contain"
-                src={`/src/assets/${item.name}.png`}
+                src={item.img}
                 alt={item.name}
               />
             </a>
