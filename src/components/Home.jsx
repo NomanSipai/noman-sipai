@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-16">
-      <div className=" text-9xl font-bold mb-20 font-sans">I'm Noman</div>
+    <div className="grid place-items-center h-screen bg-slate-200  container px-4 mx-auto">
+      <div className="text-9xl font-bold font-sans">I'm Noman</div>
       <div className="text-2xl text-center">
         <p className="mb-2">
           I am a web developer with ambition, passion and good knowledge. I

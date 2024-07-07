@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="flex items-center justify-center mt-40">
+    <div className=" min-h-screen flex items-center justify-center bg-red-100">
       <Link to="mailto:nomansipai7@gmail.com">
         <i className="bi bi-envelope text-5xl m-10 text-sky-700"></i>
       </Link>
