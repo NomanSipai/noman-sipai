@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/project" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </>
   );
