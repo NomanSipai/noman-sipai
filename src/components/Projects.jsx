@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Data from "../Data/Data";
+import data from "../data.json";
 const Projects = () => {
   return (
     <div className="bg-slate-200 flex flex-wrap items-center py-20 justify-center me-auto ms-auto">
-      {Data.map((item) => {
+      {data.map((item) => {
         return (
           <div
             key={item.id}
