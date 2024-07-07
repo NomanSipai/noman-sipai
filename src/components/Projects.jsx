@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import Data from "../Data/Data";
 const Projects = () => {
-  const getData = async () => {
-    await fetch("/src/Data/data.json").then((res) => res).then(())
-  };
-  getData();
+  // const getData = async () => {
+  //   await fetch("/src/Data/data.json").then((res) => res).then(())
+  // };
+  // getData();
   return (
-    <div className="bg-slate-200 flex flex-wrap items-center justify-center me-auto ms-auto">
+    <div className="bg-slate-200 flex flex-wrap items-center py-20 justify-center me-auto ms-auto">
       {Data.map((item) => {
         return (
           <div

@@ -1,8 +1,8 @@
 const Home = () => {
   return (
-    <div className="grid place-items-center h-screen bg-slate-200  container px-4 mx-auto">
+    <div className="min-h-screen bg-slate-200 flex flex-col items-center justify-center container px-4 mx-auto">
       <div className="text-9xl font-bold font-sans">I'm Noman</div>
-      <div className="text-2xl text-center">
+      <div className="text-2xl mt-5 text-center">
         <p className="mb-2">
           I am a web developer with ambition, passion and good knowledge. I
         </p>
