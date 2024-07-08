@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import data from "../data.json";
 const Projects = () => {
   return (
-    <div className="bg-slate-200 flex flex-wrap items-center py-20 justify-center me-auto ms-auto">
+    <div className="container px-28 mx-auto bg-slate-200 py-28 grid gap-5 place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {data.map((item) => {
         return (
           <div
             key={item.id}
-            className="group my-10 mx-8 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+            className="flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
             <a
               className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
               href="#">

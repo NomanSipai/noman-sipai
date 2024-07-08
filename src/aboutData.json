@@ -1,0 +1,52 @@
+[
+    {
+      "id":1,
+      "tech":"React",
+      "img":"./logo/react.png",
+      "bg":"#00d8ff"
+    },
+     {
+      "id":2,
+      "tech":"TypeScript",
+      "img":"./logo/typescript.png",
+      "bg":"#3178c6"
+
+    },
+     {
+      "id":3,
+      "tech":"JavaScript",
+      "img":"./logo/javascript.png",
+      "bg":"#f7df1e"
+    },
+     {
+      "id":4,  
+      "tech":"Tailwind",
+      "img":"./logo/tailwind.png",
+      "bg":"#161d2d"
+    },
+     {
+      "id":5,  
+      "tech":"BootStrap",
+      "img":"./logo/bootstrap.png",
+      "bg":"#7509f6"
+    },
+     {
+      "id":6,  
+      "tech":"HTML",
+      "img":"./logo/html.png",
+      "bg":"#f16524"
+    },
+     {
+      "id":7,  
+      "tech":"GitHub",
+      "img":"./logo/git-hub.png",
+      "bg":"#111214"
+    },
+     {
+      "id":8,  
+      "tech":"git",
+      "img":"./logo/git.png",
+      "bg":"#f05033"
+
+    }
+]
